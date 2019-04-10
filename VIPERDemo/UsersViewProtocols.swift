@@ -4,6 +4,6 @@ protocol UsersNavigationInterface: class {
 }
 
 // VIPER Interface for communication from Presenter -> View
-protocol UsersPresenterToViewInterface: class {
-
+protocol UsersPresenterToViewInterface: class, Popupable, Loadable {
+    func getUsers(usersData: [UserEntity])
 }

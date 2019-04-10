@@ -7,12 +7,8 @@
 //
 
 import Foundation
-
-
 struct APIBaseURL {
     static let APIBaseURL = "https://jsonplaceholder.typicode.com/users"
-    
 }
 struct APIParamaeters {
-    
 }

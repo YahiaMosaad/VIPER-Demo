@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A431562F22535DAE00597253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431562E22535DAE00597253 /* AppDelegate.swift */; };
-		A431563122535DAE00597253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431563022535DAE00597253 /* ViewController.swift */; };
-		A431563422535DAE00597253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431563222535DAE00597253 /* Main.storyboard */; };
 		A431563622535DB000597253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A431563522535DB000597253 /* Assets.xcassets */; };
 		A431563922535DB000597253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431563722535DB000597253 /* LaunchScreen.storyboard */; };
 		A431564422535DB100597253 /* VIPERDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431564322535DB100597253 /* VIPERDemoTests.swift */; };
 		A431564F22535DB100597253 /* VIPERDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431564E22535DB100597253 /* VIPERDemoUITests.swift */; };
+		A431566522535E3D00597253 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A431565C22535E3D00597253 /* Users.storyboard */; };
+		A431566622535E3D00597253 /* UsersInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431565D22535E3D00597253 /* UsersInteractorProtocols.swift */; };
+		A431566722535E3D00597253 /* UsersWireframeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431565E22535E3D00597253 /* UsersWireframeProtocols.swift */; };
+		A431566822535E3D00597253 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431565F22535E3D00597253 /* UsersPresenter.swift */; };
+		A431566922535E3D00597253 /* UsersPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431566022535E3D00597253 /* UsersPresenterProtocols.swift */; };
+		A431566A22535E3D00597253 /* UsersViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431566122535E3D00597253 /* UsersViewProtocols.swift */; };
+		A431566B22535E3D00597253 /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431566222535E3D00597253 /* UsersInteractor.swift */; };
+		A431566C22535E3D00597253 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431566322535E3D00597253 /* UsersView.swift */; };
+		A431566D22535E3D00597253 /* UsersWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A431566422535E3D00597253 /* UsersWireframe.swift */; };
+		A4E375A22254C64B00C76B23 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375A12254C64B00C76B23 /* UserTableViewCell.swift */; };
+		A4E375A52254C6E200C76B23 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375A32254C6E200C76B23 /* LoadingView.swift */; };
+		A4E375A62254C6E200C76B23 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375A42254C6E200C76B23 /* AlertView.swift */; };
+		A4E375A82254C81C00C76B23 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375A72254C81C00C76B23 /* UserEntity.swift */; };
+		A4E375AA2254CA9F00C76B23 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375A92254CA9F00C76B23 /* APIConstants.swift */; };
+		A4E375AC2254D5EA00C76B23 /* RootWireframe .swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E375AB2254D5EA00C76B23 /* RootWireframe .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +49,6 @@
 /* Begin PBXFileReference section */
 		A431562B22535DAE00597253 /* VIPERDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431562E22535DAE00597253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A431563022535DAE00597253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A431563322535DAE00597253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A431563522535DB000597253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A431563822535DB000597253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A431563A22535DB000597253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,21 @@
 		A431564A22535DB100597253 /* VIPERDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A431564E22535DB100597253 /* VIPERDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERDemoUITests.swift; sourceTree = "<group>"; };
 		A431565022535DB100597253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A431565C22535E3D00597253 /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Users.storyboard; path = ../Users.storyboard; sourceTree = "<group>"; };
+		A431565D22535E3D00597253 /* UsersInteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersInteractorProtocols.swift; path = ../UsersInteractorProtocols.swift; sourceTree = "<group>"; };
+		A431565E22535E3D00597253 /* UsersWireframeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersWireframeProtocols.swift; path = ../UsersWireframeProtocols.swift; sourceTree = "<group>"; };
+		A431565F22535E3D00597253 /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersPresenter.swift; path = ../UsersPresenter.swift; sourceTree = "<group>"; };
+		A431566022535E3D00597253 /* UsersPresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersPresenterProtocols.swift; path = ../UsersPresenterProtocols.swift; sourceTree = "<group>"; };
+		A431566122535E3D00597253 /* UsersViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersViewProtocols.swift; path = ../UsersViewProtocols.swift; sourceTree = "<group>"; };
+		A431566222535E3D00597253 /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersInteractor.swift; path = ../UsersInteractor.swift; sourceTree = "<group>"; };
+		A431566322535E3D00597253 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersView.swift; path = ../UsersView.swift; sourceTree = "<group>"; };
+		A431566422535E3D00597253 /* UsersWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UsersWireframe.swift; path = ../UsersWireframe.swift; sourceTree = "<group>"; };
+		A4E375A12254C64B00C76B23 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A4E375A32254C6E200C76B23 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A4E375A42254C6E200C76B23 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		A4E375A72254C81C00C76B23 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		A4E375A92254CA9F00C76B23 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		A4E375AB2254D5EA00C76B23 /* RootWireframe .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootWireframe .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +123,10 @@
 		A431562D22535DAE00597253 /* VIPERDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A431562E22535DAE00597253 /* AppDelegate.swift */,
-				A431563022535DAE00597253 /* ViewController.swift */,
-				A431563222535DAE00597253 /* Main.storyboard */,
-				A431563522535DB000597253 /* Assets.xcassets */,
-				A431563722535DB000597253 /* LaunchScreen.storyboard */,
+				A4535EBA22550B6000C80CED /* Protocols */,
+				A4535EB922550B2C00C80CED /* Resources */,
+				A4535EB822550B2000C80CED /* Core */,
+				A431566E2254C32B00597253 /* User */,
 				A431563A22535DB000597253 /* Info.plist */,
 			);
 			path = VIPERDemo;
@@ -125,6 +150,52 @@
 			path = VIPERDemoUITests;
 			sourceTree = "<group>";
 		};
+		A431566E2254C32B00597253 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A431565C22535E3D00597253 /* Users.storyboard */,
+				A431565D22535E3D00597253 /* UsersInteractorProtocols.swift */,
+				A431565E22535E3D00597253 /* UsersWireframeProtocols.swift */,
+				A431565F22535E3D00597253 /* UsersPresenter.swift */,
+				A431566022535E3D00597253 /* UsersPresenterProtocols.swift */,
+				A431566122535E3D00597253 /* UsersViewProtocols.swift */,
+				A431566222535E3D00597253 /* UsersInteractor.swift */,
+				A431566322535E3D00597253 /* UsersView.swift */,
+				A431566422535E3D00597253 /* UsersWireframe.swift */,
+				A4E375A12254C64B00C76B23 /* UserTableViewCell.swift */,
+				A4E375A72254C81C00C76B23 /* UserEntity.swift */,
+				A4E375A92254CA9F00C76B23 /* APIConstants.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		A4535EB822550B2000C80CED /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A431562E22535DAE00597253 /* AppDelegate.swift */,
+				A4E375AB2254D5EA00C76B23 /* RootWireframe .swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A4535EB922550B2C00C80CED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A431563522535DB000597253 /* Assets.xcassets */,
+				A431563722535DB000597253 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4535EBA22550B6000C80CED /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A4E375A42254C6E200C76B23 /* AlertView.swift */,
+				A4E375A32254C6E200C76B23 /* LoadingView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A431565322535DB100597253 /* Build configuration list for PBXNativeTarget "VIPERDemo" */;
 			buildPhases = (
+				A4535EBB225E038600C80CED /* SwiftLint */,
 				A431562722535DAE00597253 /* Sources */,
 				A431562822535DAE00597253 /* Frameworks */,
 				A431562922535DAE00597253 /* Resources */,
@@ -230,8 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A431563922535DB000597253 /* LaunchScreen.storyboard in Resources */,
+				A431566522535E3D00597253 /* Users.storyboard in Resources */,
 				A431563622535DB000597253 /* Assets.xcassets in Resources */,
-				A431563422535DAE00597253 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +323,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A4535EBB225E038600C80CED /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A431562722535DAE00597253 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A431563122535DAE00597253 /* ViewController.swift in Sources */,
+				A431566B22535E3D00597253 /* UsersInteractor.swift in Sources */,
 				A431562F22535DAE00597253 /* AppDelegate.swift in Sources */,
+				A431566822535E3D00597253 /* UsersPresenter.swift in Sources */,
+				A4E375A52254C6E200C76B23 /* LoadingView.swift in Sources */,
+				A431566622535E3D00597253 /* UsersInteractorProtocols.swift in Sources */,
+				A4E375A62254C6E200C76B23 /* AlertView.swift in Sources */,
+				A4E375A22254C64B00C76B23 /* UserTableViewCell.swift in Sources */,
+				A431566D22535E3D00597253 /* UsersWireframe.swift in Sources */,
+				A4E375AA2254CA9F00C76B23 /* APIConstants.swift in Sources */,
+				A4E375AC2254D5EA00C76B23 /* RootWireframe .swift in Sources */,
+				A4E375A82254C81C00C76B23 /* UserEntity.swift in Sources */,
+				A431566922535E3D00597253 /* UsersPresenterProtocols.swift in Sources */,
+				A431566722535E3D00597253 /* UsersWireframeProtocols.swift in Sources */,
+				A431566A22535E3D00597253 /* UsersViewProtocols.swift in Sources */,
+				A431566C22535E3D00597253 /* UsersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A431563222535DAE00597253 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A431563322535DAE00597253 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A431563722535DB000597253 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
